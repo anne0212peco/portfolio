@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Capriola" />
+    <TITLE>portfolio</TITLE>
+    <META CHARSET="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </script>
+</HEAD>
+
+<BODY>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="header-menu">
+                <a href="">トップ</a>
+                <a href="#about-this-site">このサイトについて</a>
+                <a href="#about-me">プロフィール</a>
+                <a href="#contact">連絡先</a>
+            </div>
+        </nav>
+    </div>
+    <div class="sp-button">
+        <button type="button" class="menu-btn">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+    </div>
+    <div class="menu">
+        <div class="menu__item">TOP</div>
+        <div class="menu__item">ABOUT</div>
+        <div class="menu__item">BLOG</div>
+        <div class="menu__item">CONTACT</div>
+    </div>
+
+
+    <div id="top-banner-container" class="main-color">
+        <div class="container">
+            <div class="center">
+                <h1 class="fadeInUp">WELCOME!!</h1>
+                <img src="img/dog_pomeranian.png">
+                <h5>HODA Engineering Laboratory
+                </h5>
+            </div>
+            <div class="scrolldown4"><span>Scroll</span></div>
+        </div>
+    </div>
+    <div id="about-this-site" class="section">
+        <div class="container">
+            <h2>About this site</h2>
+            <p>ここはエンジニアHodaのポートフォリオサイトです。<br>
+                私がこれまでに手がけた制作物、身につけたスキルをまとめています。<br>
+                あなたに、私のことをもっと深く知ってほしいと思って作りました。<br>
+                どうぞお茶でも飲みながらごゆるりとサイト内を散策してください。
+            </p>
+        </div>
+    </div>
+    <div id="about-me" class="section">
+        <div class="container">
+            <h2>About me</h2>
+            <div class="flex">
+                <img src="img/dog_pomeranian.png">
+                <p>
+                    広島県出身。
+                    システム・ソフトウェア開発、<br>
+                    ホームページ・ECサイト構築などを展開する会社へ2021年に入社。<br>
+                    フロントエンドエンジニア、システムテスト、プログラミングスクール講師として従事しました。<br>
+                    Java,Swift,Reactを使用したシステムのUI部分制作、HTML,CSS,JavaScript,C#を使用し、<br>
+                    某市の求人サイト制作、システムテスト、会社全体の電話応対等を行ってきました。<br>
+                    その後、派遣社員としてアニメ、映画事業を手がける会社にて、<br>
+                    データ入力、イベント運営の補助、各種資料作成・申請代行などの一般事務に従事しています。
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="section">
+        <div class="container">
+            <h2>contact me</h2>
+            <form action="" id="sample-form">
+                <div class="input-area">
+                    <input type="text" placeholder="Name" name="name" id="text-area">
+                    <input type="email" placeholder="Email" name="email" id="e-mail-area">
+                </div>
+                <div class="validate-text">
+                    <span id="form-text"></span>
+                    <span id="form-text2"></span>
+                </div>
+                <textarea placeholder="Message" name="message"></textarea>
+                <span id="form-text3"></span>
+                <div class="submit-button"><input type="submit" value="send" id="button"></div>
+            </form>
+        </div>
+    </div>
+    <div id="skill" class="section">
+        <div class="container">
+            <h2>My Skill</h2>
+            <canvas id="myChart" width="300" height="300"></canvas>
+        </div>
+    </div>
+    <div id="closing-banner-container">
+        <h2>Thank you for coming!</h2>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</BODY>
+
+</HTML>
