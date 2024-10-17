@@ -44,9 +44,13 @@ h2 {
 
 .header-menu {
     display: flex;
-    justify-content: right;
     align-items: center;
-    width: 90%;
+    width: 100%;
+    background-color: #EEEEEE;
+    position: fixed;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.2);
 }
 
 .header-menu a {
@@ -280,11 +284,7 @@ input {
 #form-text {
     color: red;
     width: 45%;
-}
-
-#form-text2 {
-    color: red;
-    width: 45%;
+    text-align: left;
 }
 
 textarea {
@@ -342,6 +342,7 @@ img {
     font-size: 1.5rem;
     border: none;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 
