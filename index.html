@@ -42,27 +42,15 @@
             <div class="center">
                 <h1 class="fadeInUp">WELCOME!!</h1>
                 <img src="img/dog_pomeranian.png">
-                <h5>HODA Engineering Laboratory
-                </h5>
             </div>
             <div class="scrolldown4"><span>Scroll</span></div>
         </div>
     </div>
-    <div id="about-this-site" class="section">
-        <div class="container">
-            <h2>About this site</h2>
-            <p>ここはエンジニアHodaのポートフォリオサイトです。<br>
-                私がこれまでに手がけた制作物、身につけたスキルをまとめています。<br>
-                あなたに、私のことをもっと深く知ってほしいと思って作りました。<br>
-                どうぞお茶でも飲みながらごゆるりとサイト内を散策してください。
-            </p>
-        </div>
-    </div>
-    <div id="about-me" class="section">
+
+    <div id="about-me" class="section center">
         <div class="container">
             <h2>About me</h2>
-            <div class="flex">
-                <img src="img/dog_pomeranian.png">
+            <div class="aboutme-contents">
                 <p>
                     広島県出身。
                     システム・ソフトウェア開発、<br>
@@ -71,13 +59,15 @@
                     Java,Swift,Reactを使用したシステムのUI部分制作、HTML,CSS,JavaScript,C#を使用し、<br>
                     某市の求人サイト制作、システムテスト、会社全体の電話応対等を行ってきました。<br>
                     その後、派遣社員としてアニメ、映画事業を手がける会社にて、<br>
-                    データ入力、イベント運営の補助、各種資料作成・申請代行などの一般事務に従事しています。
+                    データ入力、イベント運営の補助、各種資料作成・申請代行などの一般事務に従事していますが、<br>
+                    やはり、技術力を持って仕事したいと思い転職を決意いたしました。<br>
             </div>
         </div>
     </div>
     <div id="contact" class="section">
         <div class="container">
             <h2>contact me</h2>
+            <p class="caution-message">※名前のアドレス空欄時のアラート出現機能のみで、実際のフォーム送信機能はありません</p>
             <form action="" id="sample-form">
                 <div class="input-area">
                     <input type="text" placeholder="Name" name="name" id="text-area">
@@ -96,7 +86,60 @@
     <div id="skill" class="section">
         <div class="container">
             <h2>My Skill</h2>
-            <canvas id="myChart" width="300" height="300"></canvas>
+            <canvas id="myChart" width="500" height="500"></canvas>
+        </div>
+    </div>
+    <div id="works" class="section">
+        <div class="container">
+            <h2>Works</h2>
+            <div class="works-flex">
+                <div class="works-block">
+                    <h3>1.新卒向け某市求人検索サイト(HTML,CSS,Vue.js,C#)</h3>
+                    <p># 期間 2021年11月～2022年1月<br>
+                        # 職種 フロントエンドエンジニア<br>
+                        # チーム規模 1-10人<br>
+                        # 役割 メンバー<br>
+                        # 利用技術 C#, JavaScript, CSS, HTML<br>
+                        # 詳細 C#で検索結果となる企業ページ(HTML)を作成。<br>
+                        勤務地、業種で絞り込みできる検索機能をvue.jsにより作成<br>
+                        URL:<a href="https://ffcity-gbook.jp/wp/company/company-search.html">福山・府中 企業ガイド</a>
+                    </p>
+                </div>
+                <div class="works-block">
+                    <h3>2.イベント、舞台装置提供会社向け機材管理システム</h3>
+                    <p># 期間 2022年9月～2023年1月<br>
+                        # 職種 フロントエンドエンジニア<br>
+                        # チーム規模 10-50人<br>
+                        # 役割 メンバー<br>
+                        # 利用技術 PostgreSQL, Kotlin<br>
+                        # 詳細 PostgreSQL, Kotlin<br>
+                    </p>
+                </div>
+            </div>
+            <div class="works-flex">
+                <div class="works-block">
+                    <h3>3.その他様々な業種のシステム修正、新規機能作成</h3>
+                    <p># 期間 1ヶ月程度<br>
+                        # 職種 プログラマー<br>
+                        # チーム規模 1-2人<br>
+                        # 役割 メンバー<br>
+                        # 利用技術 Java, JavaScript, CSS, HTML<br>
+                        # 詳細 小売業のシステムのモック画面のコーディング、<br>
+                        施設管理システムのシステム修正など<br>
+                    </p>
+                </div>
+                <div class="works-block">
+                    <h3>4.テスト</h3>
+                    <p># 期間 2023年3月〜6月<br>
+                        # 職種 テスター<br>
+                        # チーム規模 1-5人<br>
+                        # 役割 メンバー<br>
+                        # 利用技術 visualBasic,Java,JavaScript<br>
+                        # 詳細 クラウド会計ソフトのシステムテスト、<br>
+                        舞台装置向け会社の機材管理のシステムのテストを担当<br>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
     <div id="closing-banner-container">

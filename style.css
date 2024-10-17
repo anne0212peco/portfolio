@@ -60,17 +60,12 @@ h2 {
 }
 
 .header-menu a:hover {
-    background: #79c6b6;
+    background: #66b7cc8c;
     color: #fff;
 }
 
-.button-collapse {
-    color: #79c6b6;
-    ;
-}
-
 .main-color {
-    background-color: #79c6b6;
+    background-color: #66b7cc8c
 }
 
 
@@ -83,7 +78,7 @@ h2 {
 
 
 .container {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     max-width: 1280px;
 }
@@ -180,7 +175,6 @@ h2 {
 
 /*スクロールダウン全体の場所*/
 .scrolldown4 {
-    /*描画位置※位置は適宜調整してください*/
     position: absolute;
     bottom: 1%;
     right: 50%;
@@ -210,7 +204,6 @@ h2 {
     left: -20px;
     bottom: 10px;
     /*テキストの形状*/
-    /* color: #eee; */
     font-size: 0.7rem;
     letter-spacing: 0.05em;
     /*縦書き設定*/
@@ -271,7 +264,6 @@ input {
 #e-mail-area {
     width: 45%;
     box-sizing: border-box;
-
 }
 
 .message-area {
@@ -320,18 +312,33 @@ img {
 
 }
 
-#about-this-site {
+#about-this-site,
+#works,
+#contact {
     text-align: center;
     background-color: #EEEEEE
 }
 
-#contact {
-    background-color: #EEEEEE
+.works-block {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background: white;
+    width: 40%
+}
+
+.works-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caution-message {
+    color: red;
 }
 
 #button {
     height: 90px;
-    background-color: #79c6b6;
+    background-color: #66b7cc8c;
     font-size: 1.5rem;
     border: none;
     border-radius: 20px;
@@ -352,7 +359,7 @@ img {
     min-height: 400px;
     line-height: 0;
     height: auto;
-    background-color: #79c6b6;
+    background-color: #66b7cc8c;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -365,10 +372,24 @@ img {
     .sp-button {
         display: none;
     }
+
 }
 
 @media (max-width: 767px) {
     .header-menu {
         display: none;
     }
+
+    .works-flex {
+        display: block;
+    }
+
+    .works-block {
+        width: 90%
+    }
+
+    #skill {
+        width: 100%;
+    }
+
 }

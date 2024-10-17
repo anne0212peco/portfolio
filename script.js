@@ -57,10 +57,10 @@ var myChart = new Chart(ctx, {
             label: 'Front-end/Back-end',
             data: [4, 3, 2, 2, 1, 3],
             backgroundColor: [
-                '#79c6b6'
+                '#66b7cc8c'
             ],
             borderColor: [
-                'green'
+                '#66b7cc8c'
             ],
             borderWidth: 1
         }]
