@@ -3,8 +3,11 @@ $(function () {
         $('.menu').toggleClass('is-active');
     });
 
-
+    $('.menu__item').on('click', function () {
+        $('.menu').removeClass('is-active');
+    })
 }());
+
 $(function () {
     $("#sample-form").submit(function () {
         if ($("input[type='text']").val() == '' || $("input[type='email']").val() == '') {
