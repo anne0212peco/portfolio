@@ -287,7 +287,8 @@ input {
     justify-content: space-between;
 }
 
-#form-text {
+#form-text,
+#form-text2 {
     color: red;
     width: 45%;
     text-align: left;
